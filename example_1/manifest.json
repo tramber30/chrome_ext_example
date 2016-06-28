@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "My chrome extension",
+  "description": "This is only a first example",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click ici mother fucker!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
